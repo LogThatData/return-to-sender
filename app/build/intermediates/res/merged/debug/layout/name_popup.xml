@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="8dp"
+    android:background="@color/brighterColorAroundPopups"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/name_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/who_are_you"
+        android:inputType="textPersonName"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"/>
+
+    <Button
+        android:id="@+id/name_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lets_go"/>
+
+</LinearLayout><!-- From: file:/C:/Users/AdminProgram/AndroidStudioProjects/ReturnToSender2/app/src/main/res/layout/name_popup.xml -->

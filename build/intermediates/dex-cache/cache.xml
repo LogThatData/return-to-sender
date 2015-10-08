@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2">
+
+    <item
+        jar="C:\Users\AdminProgram\AndroidStudioProjects\ReturnToSender2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false" revision="23.0.1" sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex
+            dex="C:\Users\AdminProgram\AndroidStudioProjects\ReturnToSender2\app\build\intermediates\pre-dexed\debug\classes-4069d5b25b97568460199883491a21c5b112b8cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdminProgram\AndroidStudioProjects\ReturnToSender2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false" revision="23.0.1" sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex
+            dex="C:\Users\AdminProgram\AndroidStudioProjects\ReturnToSender2\app\build\intermediates\pre-dexed\debug\classes-2ac4d740e6d649cbf64a52824a45a0633fe7cb3a.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdminProgram\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false" revision="23.0.1" sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex
+            dex="C:\Users\AdminProgram\AndroidStudioProjects\ReturnToSender2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-9dbfa9b637ffa3037444d6efe489f3bf39e93652.jar" />
+    </item>
+    <item
+        jar="C:\Users\AdminProgram\AndroidStudioProjects\ReturnToSender2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false" revision="23.0.1" sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex
+            dex="C:\Users\AdminProgram\AndroidStudioProjects\ReturnToSender2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-cf1eaabc719b7bd16536d189ebee745320d1e2db.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="8dp"
+    android:background="@color/brighterColorAroundPopups"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/sickness_subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/subject_of_sickness"
+        android:inputType="textCapWords"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/what_sickness"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/what_sick"
+        android:inputType="textCapWords"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/length_of_absence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/how_long_gone"
+        android:inputType="text"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/ok_sickness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/lets_go" />
+
+    <Button
+        android:id="@+id/cancel_sickness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/cancel_it" />
+</LinearLayout><!-- From: file:/C:/Users/AdminProgram/AndroidStudioProjects/ReturnToSender2/app/src/main/res/layout/sickness_popup.xml -->

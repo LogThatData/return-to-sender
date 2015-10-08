@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="8dp"
+    android:background="@color/brighterColorAroundPopups"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/cancel_event_subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brighterColorAroundPopups"
+        android:hint="@string/subject_of_apology"
+        android:inputType="textCapWords"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/reason_for_apology"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brighterColorAroundPopups"
+        android:hint="@string/why_sorry"
+        android:inputType="textCapSentences"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/ok_apology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/lets_go" />
+
+    <Button
+        android:id="@+id/cancel_apology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/cancel_it" />
+
+</LinearLayout><!-- From: file:/C:/Users/AdminProgram/AndroidStudioProjects/ReturnToSender2/app/src/main/res/layout/sorry_popup.xml -->

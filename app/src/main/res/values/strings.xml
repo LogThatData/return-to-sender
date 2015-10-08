@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ReturnToSender</string>
+    <string name="choose_email">ChooseEmailActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="add_Friends">Add Friends</string>
+    <string name="goodbye_world">I am sorry, I cannot let you do that</string>
+    <string name="my_button_text">Start</string>
+    <string name="email_please">(Type in the email)</string>
+    <string name="lets_go">Next</string>
+    <string name="cancel_it">Cancel</string>
+    <string name="name_please">(Type in the name)</string>
+    <string name="number_please">(Type in the number)</string>
+    <string name="stuff">stuff</string>
+    <string name="add_Contacts">Add Contacts</string>
+    <string name="back_out">Back</string>
+    <string name="send_email">Send Email</string>
+    <string name="apology">Send Apology</string>
+    <string name="invitation">Send Invitation</string>
+    <string name="illness">Send notification of sick-leave</string>
+    <string name="cancel_event">Cancel an event/meeting</string>
+    <string name="why_sorry">(Reason why you are apologising)</string>
+    <string name="who_are_you">(Write your name)</string>
+    <string name="subject_of_apology">(What should the subject be?)</string>
+    <string name="subject_of_invitation">(What should the email\'s subject be?)</string>
+    <string name="what_invited">(What are they invited to?)</string>
+    <string name="time_of_event">(When?)</string>
+    <string name="place_of_event">(Where?)</string>
+    <string name="rsvp_date">(Until when should they reply?)</string>
+    <string name="how_many_friends">(How many people can they bring?)</string>
+    <string name="how_long_gone">(How long will you not go?)</string>
+    <string name="what_sick">(What are you sick of?)</string>
+    <string name="subject_of_sickness">(What should the subject be?)</string>
+    <string name="subject_of_event_cancel">(What should the subject be?)</string>
+    <string name="event_to_be_cancelled">(What event is being cancelled?)</string>
+    <string name="why_cancel_event">(Why is this event being cancelled?)</string>
+    <string name="sure">Are you sure?</string>
+    <string name="yes">Yes, delete</string>
+    <string name="no">No, don\'t delete</string>
+    <string name="name">What is your name?</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorAroundPopups"> #60291226</color>
+        <color name="colorOfPopups"> #FFFFFFFF</color>
+        <color name="brighterColorAroundPopups">#7FFFFFFF</color>
+</resources>

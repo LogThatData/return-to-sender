@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="8dp"
+    android:background="@color/colorAroundPopups"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/invitation_subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/subject_of_invitation"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/what_invited_for"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/what_invited"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/invitation_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/time_of_event"
+        android:inputType="text|datetime"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/invitation_place"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/place_of_event"
+        android:inputType="textCapWords"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/RSVP_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/rsvp_date"
+        android:inputType="text|date"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/plus_one"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/how_many_friends"
+        android:inputType="number"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/ok_invitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/lets_go" />
+
+    <Button
+        android:id="@+id/cancel_invitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/cancel_it" />
+
+</LinearLayout>

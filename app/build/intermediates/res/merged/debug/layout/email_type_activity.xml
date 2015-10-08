@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/sorry_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apology" />
+
+    <Button
+        android:id="@+id/invite_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/invitation" />
+
+    <Button
+        android:id="@+id/sick_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/illness" />
+
+    <Button
+        android:id="@+id/stop_event_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_event" />
+</LinearLayout><!-- From: file:/C:/Users/AdminProgram/AndroidStudioProjects/ReturnToSender2/app/src/main/res/layout/email_type_activity.xml -->

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="8dp"
+    android:background="@color/colorAroundPopups"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/event_cancel_subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/subject_of_event_cancel"
+        android:inputType="textCapWords"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/event_to_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/event_to_be_cancelled"
+        android:inputType="text"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/why_event_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOfPopups"
+        android:hint="@string/why_cancel_event"
+        android:inputType="textAutoCorrect"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/ok_cancel_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/lets_go" />
+
+    <Button
+        android:id="@+id/cancel_cancel_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/cancel_it" />
+
+</LinearLayout>
